@@ -48,4 +48,5 @@ To reproduce paper results, follow given steps sequentially:
     ```
     python fuzz.py --dataset ImageNet --model mobilenet_v2 --criterion criterion_name  --output_dir results --max_testsuite_size 10000 --seed_id 1
     ```
-  
+##### Acknowledgement
+This repository is build upon the codebase of [Neural-Coverage](https://github.com/Yuanyuan-Yuan/NeuraL-Coverage)  github repository.
